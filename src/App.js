@@ -1,11 +1,15 @@
+import React from "react";
 
 import './App.css';
-import home from "./components/home"
+import Landing from "./pages/landing";
 
 function App() {
-  return <div className="App">
-      <home/>
-    </div>;
+  return (
+    <React.Fragment>
+      <Landing/>
+    </React.Fragment>
+  );
+      
 }
 
 export default App;
