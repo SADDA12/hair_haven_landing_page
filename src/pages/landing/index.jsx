@@ -4,6 +4,7 @@ import Hero from "../../components/hero";
 import Collection from "../../components/collections";
 import Products from "../../components/products";
 import Ceosection from "../../components/ceo";
+import Footer from "../../components/footer";
 
 export default function Landing() {
     return (
@@ -13,6 +14,7 @@ export default function Landing() {
         <Collection/>
         <Products/>
         <Ceosection/>
+        <Footer/>
 
         
       </React.Fragment>
