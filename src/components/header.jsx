@@ -3,7 +3,7 @@ import logo from "../assets/logo.png"
 export default function Header() {
     return(
         <header className="header">
-            <div className="logoDiv"><img src={logo} alt="image of our header"/></div>
+            <div className="logoDiv"><img src={logo} alt="our logo"/></div>
 
             <div>
                 <ul className="navLinks">
@@ -15,7 +15,7 @@ export default function Header() {
                 </ul>
             </div>
 
-            <div className="appointmentSctn"><button>Appointment</button></div>
+            <div className="appointmentSctn"><button>Shop Now</button></div>
         </header>
 
     );

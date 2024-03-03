@@ -1,5 +1,7 @@
+/* Header */
 .header {
-  background-color: black;
+  background-color: white;
+  border-top: 4px solid goldenrod ;
 }
 
 .logoDiv {
@@ -13,7 +15,7 @@
 }
 
 .navLinks li{
-  color: white;
+  color: black;
   text-align: center;
   list-style-type: none;
   margin: 10px 10px;
@@ -33,14 +35,97 @@
 }
 
 .appointmentSctn button {
-  background-color: rgb(248, 47, 111);
+  background-color: goldenrod;
   padding: 5px;
-  border: 1px solid goldenrod;
+  border: 1px solid black;
   border-radius: 5px;
   margin-bottom: 10px;
 }
 
+/* Hero section */
+.heroSctn {
+  padding-top: 5px;
+  background: rgb(106,79,11);
+background: linear-gradient(90deg, rgba(106,79,11,1) 0%, rgba(202,177,113,1) 35%, rgba(217,165,33,1) 100%);
+  text-align: center;
+}
 
+.heroPic {
+  width: 300px;
+  height: 200px;
+}
+
+.span1 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.heroText{
+  color: white;
+}
+
+.heroSctn button {
+  background-color: goldenrod;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+/* Collection Section */
+.collection-sctn h1 {
+  text-align: center;
+}
+
+.collection-sctn img {
+  width: 100px;
+  height: 100px ;
+  border-radius: 45px;
+}
+
+.collection-img-sctn {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Products Section */
+.productsSctn {
+  background: rgb(106,79,11);
+background: linear-gradient(90deg, rgba(106,79,11,1) 0%, rgba(202,177,113,1) 35%, rgba(217,165,33,1) 100%);
+padding: 10px 0;
+margin-top: 10px;
+}
+
+.productsSctn h4 {
+  text-align: center; 
+  color: white;
+}
+
+.productsSctn img {
+  width: 200px;
+  height: 200px;
+}
+
+.imgSctn h3 {text-align: center;}
+
+.imgDiv{
+  background: rgb(164,149,112);
+background: linear-gradient(90deg, rgba(164,149,112,1) 0%, rgba(231,210,156,1) 35%, rgba(244,218,151,1) 100%);
+  display: flex;
+  justify-content: center;
+  margin: 30px 50px;
+  padding: 10px 0;
+}
+
+ /* CEO SECTION */
+.ceoSctn h3 {text-align: center;}
+
+.ceoSctn img {width: 200px;}
+
+.ceoInfo {text-align: center;}
+
+.ceoMsg {text-align: center;}
 
 
 @media screen and (min-width: 426px) and (max-width:768px){
@@ -57,10 +142,50 @@
   margin-top: 28px;
 }
 
-.appointmentSctn {
-  padding: 30px 15px 0 0;
+.appointmentSctn {padding: 30px 15px 0 0;}
+
+
+/* Hero section */
+.heroSctn {
+  width: 768px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
+.heroSctn p{font-size: 18px;}
+
+.heroSctn button{font-size: 18px;}
+
+.heroPic {width: 350px;}
+
+/* Collection Section */
+.collection-sctn img {
+  width: 130px;
+  height: 130px ;
+}
+
+.collection-img-sctn {gap: 40px;}
+
+/* Products Section */
+.imgSctn {
+  display: flex;
+  justify-content: center;
+}
+
+.imgDiv {
+  margin: 0 10px;
+}
+
+.productsSctn img {
+  width: 150px;
+  height: 150px;
+}
+
+/* CEO SECTION */ 
+.ceoSctn h3 {font-size: 22px;}
+
+.ceoMsg p {font-size: 20px;}
 }
 
 
@@ -84,4 +209,51 @@
 .logoDiv {
   margin-left: 20px;
 }
+
+/* Hero section */
+.heroSctn {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 30px;
+}
+
+.heroSctn p{font-size: 24px;}
+
+.heroSctn button{font-size: 22px;}
+
+.heroPic {
+  width: 500px;
+  height: 300px;
+}
+
+.heroText {padding-top: 50px;}
+
+/* Collection Section */
+.collection-sctn img {
+  width: 160px;
+  height: 160px ;
+}
+
+.collection-img-sctn  {gap: 70px;}
+
+/* Products Section */
+.imgSctn {
+  display: flex;
+  justify-content: center;
+}
+
+.imgDiv{
+  margin: 20px 20px;
+}
+
+/* CEO SECTION */ 
+.imgMsg {
+  display: flex;
+  padding: 0px 20px;
+}
+
+.ceoSctn h3 {font-size: 25px;}
+
+.ceoMsg p {font-size: 21px;}
 }
