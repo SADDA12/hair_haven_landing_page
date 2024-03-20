@@ -1,15 +1,11 @@
-import heroimg from "../assets/heroimg.png"
+import bgVideo from "../assets/herosection-bg-video.mp4";
 
 export default function Hero() {
-    return (
-        <section className="heroSctn">
-            <div className="heroText">
-                <p>Discover your perfect style with...<span className="span1">Hair Haven</span></p>
-                <button>Book a consultation</button>
-            </div>
-            <div>
-                <img className="heroPic" src={heroimg} alt="lady with hair"/>
-            </div>
-        </section>
-    )
+  return (
+    <section className="hero-container">
+        <video autoPlay loop muted className="video-background">
+          <source src={bgVideo} type="video/mp4" />
+        </video>
+    </section>
+  );
 }
